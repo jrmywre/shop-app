@@ -1,28 +1,22 @@
-html {
-    font-size: 62.5%; // 1rem is 10px
-}
-
-*,
-*::after,
-*::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-    font-family: 'titillium web';
+html{
+    font-size: 62.5%;
 }
 
 body {
-    overflow-x: hidden;
-    font-weight: normal;
-
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-    -webkit-tap-highlight-color: transparent;
+    font-family: 'titillium web';
 }
 
-.app {
-    margin-top: 2rem;
-    display: grid;
-    justify-items: center;
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
 }
+
+
+@import './layout.scss';
+// LOGO
+@import './logo.scss';
+
+@import './navigation.scss';
